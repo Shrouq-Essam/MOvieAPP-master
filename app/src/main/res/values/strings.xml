@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Movie</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_details">Details</string>
+    <string name="title_activity_reviews">Reviews</string>
+
+    <!-- Label for the sort preference [CHAR LIMIT=30] -->
+    <string name="pref_sort_label">SortBy</string>
+
+    <!-- Label for popularity option in sort preference [CHAR LIMIT=25] -->
+    <string name="pref_sort_label_pop">Popularity</string>
+
+    <!-- Label for rate option in sort preference [CHAR LIMIT=25] -->
+    <string name="pref_sort_label_rate">Rating</string>
+
+    <!-- Label for rate option in sort preference [CHAR LIMIT=25] -->
+    <string name="pref_sort_label_fav">Favourite</string>
+
+    <!-- Key name for sort preference in SharedPreferences [CHAR LIMIT=NONE] -->
+    <string name="pref_sort_key" translatable="false">sort</string>
+
+    <!-- Value in SharedPreferences for popularity sorting option [CHAR LIMIT=NONE] -->
+    <string name="pref_sort_pop" translatable="false">popularity</string>
+
+    <!-- Value in SharedPreferences for rate sorting option [CHAR LIMIT=NONE] -->
+    <string name="pref_sort_rate" translatable="false">vote_count</string>
+
+    <!-- Value in SharedPreferences for favourite sorting option [CHAR LIMIT=NONE] -->
+    <string name="pref_sort_fav" translatable="false">favourite</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
